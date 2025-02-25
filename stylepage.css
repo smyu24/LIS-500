@@ -15,6 +15,17 @@ header {
     text-align: center;
 }
 
+footer {
+    background-color: #f0fff0; /* Honeydew */
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
 
 nav ul {
     list-style: none;
@@ -174,17 +185,6 @@ img {
     margin: 10px auto;
     border-radius: 5px;
     max-width: 100%;
-}
-
-
-footer {
-    background-color: #f0fff0; /* Honeydew */
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 30px;
 }
 
 
