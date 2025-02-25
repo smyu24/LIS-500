@@ -73,6 +73,12 @@ p:nth-child(4) {
     border-radius: 5px;
 }
 
+p:nth-of-type(5) {
+    background-color: #d0f0c0; /* Green tea */
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .media-container {
     display: flex;
     flex-direction: column;
