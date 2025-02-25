@@ -83,6 +83,27 @@ span + p:nth-of-type(5) {
     border-radius: 5px;
 }
 
+/* New color for an additional paragraph */
+span + p:nth-of-type(6) {
+    background-color: #e6e6fa; /* Lavender */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* New color for another paragraph */
+span + p:nth-of-type(7) {
+    background-color: #fffacd; /* Lemon Chiffon */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Additional new color for paragraph */
+span + p:nth-of-type(8) {
+    background-color: #ffcccb; /* Misty Rose */
+    padding: 10px;
+    border-radius: 5px;
+}
+
 
 
 .media-container {
