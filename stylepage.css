@@ -49,65 +49,55 @@ h2 {
     padding-bottom: 5px;
 }
 
-p:nth-child(1) {
-    background-color: #f0f8ff; /* Alice Blue */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-p:nth-child(2) {
-    background-color: #ffebcd; /* Blanched Almond */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-p:nth-child(3) {
-    background-color: #fafad2; /* Light Goldenrod Yellow */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-p:nth-child(4) {
-    background-color: #f0fff0; /* Honeydew */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Targeting the first <p> after the h3 "Education: The Weight of Expectations" */
-h3 + p:nth-of-type(1) {
-    background-color: #f0f8ff; /* Alice Blue */
-    padding: 10px;
-    border-radius: 5px;
-}
 
 /* Targeting the first <p> after the h3 "Hiring Practices: Names as a Barrier to Opportunity" */
-h3 + p:nth-of-type(2) {
-    background-color: #ffebcd; /* Blanched Almond */
+span + p:nth-of-type(1) {
+    background-color: #f0f8ff; /* Alice Blue */
     padding: 10px;
     border-radius: 5px;
 }
 
 /* Targeting the first <p> after the h3 "Healthcare: Who Deserves to Feel Pain?" */
-h3 + p:nth-of-type(3) {
-    background-color: #fafad2; /* Light Goldenrod Yellow */
+span + p:nth-of-type(2) {
+    background-color: #ffebcd; /* Blanched Almond */
     padding: 10px;
     border-radius: 5px;
 }
 
 /* Targeting the first <p> after the h3 "Criminal Justice: The Bias That Kills" */
-h3 + p:nth-of-type(4) {
+span + p:nth-of-type(3) {
+    background-color: #fafad2; /* Light Goldenrod Yellow */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Targeting the first <p> after the h3 "Moving Beyond Awareness to Action" */
+span + p:nth-of-type(4) {
     background-color: #f0fff0; /* Honeydew */
     padding: 10px;
     border-radius: 5px;
 }
 
 /* Targeting the first <p> after the h3 "Moving Beyond Awareness to Action" */
-h3 + p:nth-of-type(5) {
+span + p:nth-of-type(5) {
     background-color: #d0f0c0; /* Tea Green */
     padding: 10px;
     border-radius: 5px;
 }
 
+/* New color for an additional paragraph */
+span + p:nth-of-type(6) {
+    background-color: #e6e6fa; /* Lavender */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* New color for another paragraph */
+span + p:nth-of-type(7) {
+    background-color: #fffacd; /* Lemon Chiffon */
+    padding: 10px;
+    border-radius: 5px;
+}
 
 
 .media-container {
