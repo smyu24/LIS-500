@@ -90,22 +90,6 @@ span + p:nth-of-type(6) {
     border-radius: 5px;
 }
 
-/* New color for another paragraph */
-span + p:nth-of-type(7) {
-    background-color: #fffacd; /* Lemon Chiffon */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Additional new color for paragraph */
-span + p:nth-of-type(8) {
-    background-color: #ffcccb; /* Misty Rose */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-
-
 .media-container {
     display: flex;
     flex-direction: column;
@@ -206,7 +190,7 @@ img {
 
 
 footer {
-    background-color: #1a237e;
+    background-color: #1f3b5c;
     color: white;
     text-align: center;
     padding: 15px;
