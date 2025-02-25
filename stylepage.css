@@ -7,6 +7,7 @@ body {
     padding: 0;
 }
 
+
 header {
     background-color: #1f3b5c; 
     color: white;
@@ -14,15 +15,6 @@ header {
     text-align: center;
 }
 
-footer {
-    background-color: #f0fff0; /* Honeydew */
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 30px;
-}
 
 nav ul {
     list-style: none;
@@ -40,6 +32,7 @@ nav a {
     font-weight: bold;
 }
 
+
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -48,6 +41,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 h2 {
     color: #1f3b5c;
@@ -79,17 +73,108 @@ p:nth-child(4) {
     border-radius: 5px;
 }
 
+/* Targeting the first <p> after the h3 "Education: The Weight of Expectations" */
+h3 + p:nth-of-type(1) {
+    background-color: #f0f8ff; /* Alice Blue */
+    padding: 10px;
+    border-radius: 5px;
+}
 
-/* p {
+/* Targeting the first <p> after the h3 "Hiring Practices: Names as a Barrier to Opportunity" */
+h3 + p:nth-of-type(2) {
+    background-color: #ffebcd; /* Blanched Almond */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Targeting the first <p> after the h3 "Healthcare: Who Deserves to Feel Pain?" */
+h3 + p:nth-of-type(3) {
+    background-color: #fafad2; /* Light Goldenrod Yellow */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Targeting the first <p> after the h3 "Criminal Justice: The Bias That Kills" */
+h3 + p:nth-of-type(4) {
+    background-color: #f0fff0; /* Honeydew */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Targeting the first <p> after the h3 "Moving Beyond Awareness to Action" */
+h3 + p:nth-of-type(5) {
+    background-color: #d0f0c0; /* Tea Green */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+/* You can continue this pattern to add more colors for additional paragraphs */
+
+
+
+
+.media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1f3b5c;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 30px;  
+}
+
+
+h1 {
+    color: #e3b6a1; 
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    color: #283593; 
+    font-size: 26px;
+    border-bottom: 2px solid #5c6bc0;
+    padding-bottom: 5px;
+}
+
+
+p {
     font-size: 18px;
     color: #444;
     margin-bottom: 15px;
-} */
+}
+
 
 strong {
     color: #d32f2f; 
     font-weight: bold;
 }
+
 
 a {
     color: #1976d2;
@@ -100,6 +185,7 @@ a:hover {
     color: #0d47a1;
     text-decoration: underline;
 }
+
 
 .bio-container {
     display: flex;
@@ -112,11 +198,6 @@ a:hover {
     margin: 0 auto; 
 }
 
-.bio-container img {
-    width: 300px;  /* Set width to 300px */
-    height: auto;  /* Maintain aspect ratio */
-    border-radius: 8px;  /* Optional: rounded corners */
-}
 
 .bio {
     width: 55%; 
@@ -126,9 +207,19 @@ a:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 img {
     display: block;
     margin: 10px auto;
     border-radius: 5px;
     max-width: 100%;
+}
+
+
+footer {
+    background-color: #1a237e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
