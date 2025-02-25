@@ -77,18 +77,11 @@ span + p:nth-of-type(4) {
 }
 
 /* Targeting the first <p> after the h3 "Moving Beyond Awareness to Action" */
-span + p:nth-of-type(5) {
+/* span + p:nth-of-type(5) {
     background-color: #d0f0c0; /* Tea Green */
     padding: 10px;
     border-radius: 5px;
-}
-
-/* New color for an additional paragraph */
-span + p:nth-of-type(6) {
-    background-color: #e6e6fa; /* Lavender */
-    padding: 10px;
-    border-radius: 5px;
-}
+} */
 
 .media-container {
     display: flex;
