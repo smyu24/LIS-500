@@ -88,17 +88,6 @@ span + p:nth-of-type(4) {
     margin: 0 auto;
 }
 
-/* Ensure figure margins are reset */
-figure {
-    margin: 0;
-}
-
-/* Ensure iframe (e.g., video) is responsive */
-iframe {
-    max-width: 100%;
-    height: auto;
-}
-
 /* Responsive image styling */
 .responsive-img {
     max-width: 100%;
