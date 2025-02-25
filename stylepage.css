@@ -78,17 +78,13 @@ p:nth-child(3) {
     border-radius: 5px;
 }
 
-p:nth-child(4) {
+/* p:nth-child(4) {
     background-color: #f0fff0; /* Honeydew */
     padding: 10px;
     border-radius: 5px;
 }
+ */
 
-p:nth-child(n+5) {
-    background-color: #f0ff00; /* Honeydew */
-    padding: 10px;
-    border-radius: 5px;
-}
 
 .media-container {
     display: flex;
