@@ -86,16 +86,6 @@ p:nth-child(4) {
     border-radius: 10px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #1f3b5c;
-    color: white;
-    margin-top: 20px;
-}
-
-
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -175,10 +165,12 @@ img {
 
 
 footer {
-    background-color: #1a237e;
+    background-color: #f0fff0; /* Honeydew */
+    padding: 10px;
+    border-radius: 5px;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     margin-top: 30px;
 }
 
